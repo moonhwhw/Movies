@@ -1,0 +1,56 @@
+.movie-detail {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .movie-detail-container {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+  }
+  
+  .movie-detail-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .movie-detail-image img {
+    width: 80%;
+    border-radius: 10px;
+  }
+  
+  .movie-detail-info {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  .movie-detail-info h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .movie-detail-info p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .booking-button {
+    background-color: #ff512f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .booking-button:hover {
+    background-color: #dd2476;
+  }
+  

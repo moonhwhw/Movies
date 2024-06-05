@@ -1,0 +1,106 @@
+.booking-page {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .booking-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .step-selection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .selection-section {
+    margin: 0 20px;
+  }
+  
+  .selection-section ul, .dates-list, .showtimes-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .selection-section li, .dates-list li, .showtimes-list li {
+    background-color: #333;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .selection-section li.selected, .dates-list li.selected, .showtimes-list li.selected {
+    background-color: #d54646;
+  }
+  
+  .seats-container {
+    display: grid;
+    grid-template-columns: repeat(10, 30px);
+    gap: 5px;
+    width: max-content;
+    margin: 0 auto;
+  }
+  
+  .seat {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .seat.occupied {
+    background-color: red;
+    cursor: not-allowed;
+  }
+  
+  .seat.selected {
+    background-color: yellow;
+    color: black; 
+  }
+  
+  .booking-button-container {
+   
+    margin-top: 100px;
+    margin-left: 30px;
+  }
+  
+  .booking-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .booking-button:hover {
+    background-color: #ff4500;
+  }
+
+  .screen {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
